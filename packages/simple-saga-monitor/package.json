@@ -1,0 +1,62 @@
+{
+  "name": "@redux-saga/simple-saga-monitor",
+  "version": "2.0.0",
+  "main": "dist/redux-saga-simple-saga-monitor.cjs.js",
+  "module": "dist/redux-saga-simple-saga-monitor.esm.js",
+  "exports": {
+    ".": {
+      "types": {
+        "import": "./dist/redux-saga-simple-saga-monitor.cjs.mjs",
+        "default": "./dist/redux-saga-simple-saga-monitor.cjs.js"
+      },
+      "node": {
+        "module": "./dist/redux-saga-simple-saga-monitor.node.esm.js",
+        "import": "./dist/redux-saga-simple-saga-monitor.node.cjs.mjs",
+        "default": "./dist/redux-saga-simple-saga-monitor.node.cjs.js"
+      },
+      "module": "./dist/redux-saga-simple-saga-monitor.esm.js",
+      "import": "./dist/redux-saga-simple-saga-monitor.cjs.mjs",
+      "default": "./dist/redux-saga-simple-saga-monitor.cjs.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {},
+  "repository": "https://github.com/redux-saga/redux-saga/tree/main/packages/simple-saga-monitor",
+  "keywords": [
+    "redux",
+    "saga",
+    "redux-saga"
+  ],
+  "author": "Yassine ELOUAFI <yelouafi@gmail.com>",
+  "contributors": [
+    "Mateusz Burzyński <mateuszburzynski@gmail.com> (https://github.com/Andarist)",
+    "Mikhail Shustov <restrry@gmail.com> (https://github.com/restrry)",
+    "Shi Feichao <842351815@qq.com> (https://github.com/shinima)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/redux-saga/redux-saga/issues"
+  },
+  "homepage": "https://redux-saga.js.org/",
+  "dependencies": {
+    "@babel/runtime": "^7.28.4",
+    "@redux-saga/is": "^1.2.0"
+  },
+  "peerDependencies": {
+    "redux-saga": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "babel-plugin-annotate-pure-calls": "^0.4.0"
+  },
+  "imports": {
+    "#formatter": {
+      "node": "./src/modules/NodeFormatter.js",
+      "default": "./src/modules/BrowserFormatter.js"
+    }
+  }
+}

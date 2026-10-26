@@ -1,0 +1,47 @@
+{
+  "name": "babel-plugin-redux-saga",
+  "version": "1.2.1",
+  "license": "MIT",
+  "repository": "https://github.com/redux-saga/redux-saga/tree/main/packages/babel-plugin-redux-saga",
+  "author": "Mikhail Shustov <restrry@gmail.com> (https://github.com/restrry)",
+  "contributors": [
+    "Mateusz Burzyński <mateuszburzynski@gmail.com> (https://github.com/Andarist)",
+    "Shi Feichao <842351815@qq.com> (https://github.com/shinima)"
+  ],
+  "keywords": [
+    "babel-plugin",
+    "redux-saga"
+  ],
+  "main": "dist/babel-plugin-redux-saga.cjs.js",
+  "module": "dist/babel-plugin-redux-saga.esm.js",
+  "exports": {
+    ".": {
+      "types": {
+        "import": "./dist/babel-plugin-redux-saga.cjs.mjs",
+        "default": "./dist/babel-plugin-redux-saga.cjs.js"
+      },
+      "module": "./dist/babel-plugin-redux-saga.esm.js",
+      "import": "./dist/babel-plugin-redux-saga.cjs.mjs",
+      "default": "./dist/babel-plugin-redux-saga.cjs.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {},
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "source-map": "^0.6.1"
+  },
+  "peerDependencies": {
+    "redux-saga": "^1.0.0-rc.0"
+  }
+}

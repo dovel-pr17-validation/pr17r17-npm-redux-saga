@@ -1,0 +1,56 @@
+{
+  "name": "@redux-saga/testing-utils",
+  "version": "1.2.3",
+  "description": "Redux-saga simple testing utils.",
+  "main": "dist/redux-saga-testing-utils.cjs.js",
+  "module": "dist/redux-saga-testing-utils.esm.js",
+  "exports": {
+    ".": {
+      "types": {
+        "import": "./dist/redux-saga-testing-utils.cjs.mjs",
+        "default": "./dist/redux-saga-testing-utils.cjs.js"
+      },
+      "module": "./dist/redux-saga-testing-utils.esm.js",
+      "import": "./dist/redux-saga-testing-utils.cjs.mjs",
+      "default": "./dist/redux-saga-testing-utils.cjs.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "types": "./dist/redux-saga-testing-utils.cjs.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "test:types": "tsc -p types/tsconfig.json --noEmit"
+  },
+  "repository": "https://github.com/redux-saga/redux-saga/tree/main/packages/testing-utils",
+  "keywords": [
+    "redux",
+    "saga",
+    "redux-saga"
+  ],
+  "author": "Yassine ELOUAFI <yelouafi@gmail.com>",
+  "contributors": [
+    "Mateusz Burzyński <mateuszburzynski@gmail.com> (https://github.com/Andarist)",
+    "Mikhail Shustov <restrry@gmail.com> (https://github.com/restrry)",
+    "Shi Feichao <842351815@qq.com> (https://github.com/shinima)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/redux-saga/redux-saga/issues"
+  },
+  "homepage": "https://redux-saga.js.org/",
+  "dependencies": {
+    "@redux-saga/symbols": "^1.2.1",
+    "@redux-saga/types": "^1.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@redux-saga/core": "^1.5.0",
+    "babel-plugin-annotate-pure-calls": "^0.4.0",
+    "redux-saga": "^1.5.0",
+    "typescript": "^6.0.3"
+  }
+}

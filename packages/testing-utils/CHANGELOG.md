@@ -1,0 +1,57 @@
+# @redux-saga/testing-utils
+
+## 1.2.3
+
+### Patch Changes
+
+- [#2741](https://github.com/redux-saga/redux-saga/pull/2741) [`36c5a0f`](https://github.com/redux-saga/redux-saga/commit/36c5a0fdca3bd484bdd070840af6b233fb64d314) Thanks [@yelouafi](https://github.com/yelouafi)! - Expose the iterable protocol from cloneable generator test helpers.
+
+- Updated dependencies [[`36c5a0f`](https://github.com/redux-saga/redux-saga/commit/36c5a0fdca3bd484bdd070840af6b233fb64d314)]:
+  - @redux-saga/types@1.4.0
+
+## 1.2.2
+
+### Patch Changes
+
+- [#2731](https://github.com/redux-saga/redux-saga/pull/2731) [`9f23a87`](https://github.com/redux-saga/redux-saga/commit/9f23a87351c31a61ab2b2f656fdc9436e8fbba15) Thanks [@yelouafi](https://github.com/yelouafi)! - Preserve throw and return calls when cloning cloneable generators.
+
+## 1.2.1
+
+### Patch Changes
+
+- [#2714](https://github.com/redux-saga/redux-saga/pull/2714) [`1f10ddd`](https://github.com/redux-saga/redux-saga/commit/1f10ddd4452a0ad7813a7fcd82005377659db63d) Thanks [@Andarist](https://github.com/Andarist)! - Fixed TS types compatibility with `"moduleResolution": "node"`.
+
+- Updated dependencies [[`1f10ddd`](https://github.com/redux-saga/redux-saga/commit/1f10ddd4452a0ad7813a7fcd82005377659db63d)]:
+  - @redux-saga/symbols@1.2.1
+  - @redux-saga/types@1.3.1
+
+## 1.2.0
+
+### Minor Changes
+
+- [#2416](https://github.com/redux-saga/redux-saga/pull/2416) [`6707228`](https://github.com/redux-saga/redux-saga/commit/6707228c23c6cd8f54e4cde8d1fb1887c3831af1) Thanks [@Andarist](https://github.com/Andarist)! - `exports` field has been added to the `package.json` manifest. It limits what files can be imported from a package but we've tried our best to allow importing all the files that were considered to be a part of the public API.
+
+### Patch Changes
+
+- Updated dependencies [[`6707228`](https://github.com/redux-saga/redux-saga/commit/6707228c23c6cd8f54e4cde8d1fb1887c3831af1)]:
+  - @redux-saga/symbols@1.2.0
+  - @redux-saga/types@1.3.0
+
+## 1.1.5
+
+### Patch Changes
+
+- [#2324](https://github.com/redux-saga/redux-saga/pull/2324) [`2466c79`](https://github.com/redux-saga/redux-saga/commit/2466c798a5f56a5015e61c8fdf0ef8f2a6a852a4) Thanks [@neurosnap](https://github.com/neurosnap)! - Add LICENSE file
+
+- Updated dependencies [[`2466c79`](https://github.com/redux-saga/redux-saga/commit/2466c798a5f56a5015e61c8fdf0ef8f2a6a852a4)]:
+  - @redux-saga/symbols@1.1.3
+  - @redux-saga/types@1.2.1
+
+## 1.1.4
+
+### Patch Changes
+
+- [#2297](https://github.com/redux-saga/redux-saga/pull/2297) [`fdca798`](https://github.com/redux-saga/redux-saga/commit/fdca7989d5b8325b4a685de984ca121769c23ab0) Thanks [@lourd](https://github.com/lourd)! - Adds missing isAborted method to mock task and deprecates its setRunning method
+
+- Updated dependencies [[`bed4458`](https://github.com/redux-saga/redux-saga/commit/bed4458a79f21fd568a9d970968c9c8b8cbe1bf4), [`612cae8`](https://github.com/redux-saga/redux-saga/commit/612cae81f0b8e6eb01b0b4c9ed961906be1fea98), [`20f22a8`](https://github.com/redux-saga/redux-saga/commit/20f22a8edd3bc66c2373ad31fb2c81e9bfed435f), [`d2579a2`](https://github.com/redux-saga/redux-saga/commit/d2579a204c6fa75105a74c999542dfc331697c21)]:
+  - @redux-saga/types@1.2.0
